@@ -1,21 +1,18 @@
 ﻿using log4net;
 using log4net.Config;
-using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading;
-using System.Xml;
 using static System.String;
 
 namespace MDItemExport
 {
     internal class Program
     {
-        internal static XmlData GameData { get; set; }
+        internal static XmlData data { get; set; }
         internal static ILog logger { get; } = LogManager.GetLogger(nameof(MDItemExport));
 
         private static void Main(string[] args)
@@ -25,13 +22,13 @@ namespace MDItemExport
             logger.Info("Starting Muledump Item Export");
             var sw = new Stopwatch();
             sw.Start();
-            GameData = new XmlData();
+            data = new XmlData();
 
             int items = 0;
             var sb = new StringBuilder("items = {\n");
             sb.Append("\t'-1': [\"empty slot\", 0, -1, 0, 0, 0, 0],\n");
 
-            foreach (var item in GameData.Items.Values.OrderBy(i => i.ObjectType))
+            foreach (var item in data.Items.Values.OrderBy(i => i.ObjectType))
             //foreach (var item in GameData.Items.Values.OrderBy(i => LanguageStrings[i.DisplayId.Replace("{", Empty).Replace("}", Empty)]))
             //foreach (var item in GameData.Items.Values.OrderBy(i => i.SlotType))
             //foreach (var item in GameData.Items.Values.OrderBy(i => i.ObjectId))
@@ -67,9 +64,9 @@ namespace MDItemExport
             }
 
             using (var writer = new StreamWriter("dic2.txt", false, Encoding.UTF8))
-                writer.Write(sb3.ToString());  // Generate new XY dictionary
-            // Js function to grab current xy values**/
-            // $.each(items, function() { ret += ("            { \"" + $(this)[0] + "\", new Tuple<int, int>(" + $(this)[3] + ", " + $(this)[4] + ") },\n")})
+                writer.Write(sb3.ToString());**/  // Generate new XY dictionary
+            // Js function to grab current xy values
+            //$.each(items, function() { ret += (" { \"" + $(this)[0] + "\", new Tuple<int, int>(" + $(this)[3] + ", " + $(this)[4] + ") },\n")})
 
             using (var writer = new StreamWriter("output.js", false, Encoding.UTF8))
                 writer.Write(sb.ToString());
@@ -1362,7 +1359,6 @@ namespace MDItemExport
             { "Large Plaid Cloth", new Tuple<int, int>(960, 1920) },
             { "Small Heavy Chainmail Cloth", new Tuple<int, int>(960, 1960) },
             { "Large Jester Argyle Cloth", new Tuple<int, int>(960, 2000) },
-
         };
 
         private static Dictionary<string, string> LanguageStrings = new Dictionary<string, string>
