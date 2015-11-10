@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-
+<?xml version="1.0" encoding="utf-8"?>
 <Objects>
   <Object type="0xc85" id="Common Feline Egg">
     <Class>Equipment</Class>
@@ -5522,7 +5521,6 @@
     <FameBonus>5</FameBonus>
     <feedPower>900</feedPower>
     <Soulbound />
-    <SellPrice fame="10" />
     <DisplayId>{equip.Ring_of_the_Pyramid}</DisplayId>
   </Object>
   <Object type="0xa2e" id="Fire Spray Spell">
@@ -5917,14 +5915,8 @@
     <Usable />
     <BagType>1</BagType>
     <MpCost>65</MpCost>
-    <Activate effect="Healing" duration="2.5" range="4.5" color="0xff0080" target="player" center="player"
-              visualEffect="5" useWisMod="true">
-      GenericActivate
-    </Activate>
-    <Activate effect="Damaging" duration="2.5" range="4.5" color="0xff0080" target="player" center="player"
-              visualEffect="0" useWisMod="true">
-      GenericActivate
-    </Activate>
+    <Activate effect="Healing" duration="2.5" range="4.5" color="0xff0080" target="player" center="player" visualEffect="5" useWisMod="true">GenericActivate</Activate>
+    <Activate effect="Damaging" duration="2.5" range="4.5" color="0xff0080" target="player" center="player" visualEffect="0" useWisMod="true">GenericActivate</Activate>
     <feedPower>5</feedPower>
     <DisplayId>{equip.Seal_of_the_Initiate}</DisplayId>
   </Object>
@@ -5942,14 +5934,8 @@
     <Usable />
     <BagType>1</BagType>
     <MpCost>65</MpCost>
-    <Activate effect="Healing" duration="3" range="4.5" color="0xff0080" target="player" center="player"
-              visualEffect="5" useWisMod="true">
-      GenericActivate
-    </Activate>
-    <Activate effect="Damaging" duration="3" range="4.5" color="0xff0080" target="player" center="player"
-              visualEffect="0" useWisMod="true">
-      GenericActivate
-    </Activate>
+    <Activate effect="Healing" duration="3" range="4.5" color="0xff0080" target="player" center="player" visualEffect="5" useWisMod="true">GenericActivate</Activate>
+    <Activate effect="Damaging" duration="3" range="4.5" color="0xff0080" target="player" center="player" visualEffect="0" useWisMod="true">GenericActivate</Activate>
     <feedPower>10</feedPower>
     <DisplayId>{equip.Seal_of_the_Pilgrim}</DisplayId>
   </Object>
@@ -5968,14 +5954,8 @@
     <BagType>1</BagType>
     <MpCost>70</MpCost>
     <Activate stat="0" amount="10" duration="3" range="4.5" noStack="true" useWisMod="true">StatBoostAura</Activate>
-    <Activate effect="Healing" duration="3" range="4.5" color="0xff0080" target="player" center="player"
-              visualEffect="5" useWisMod="true">
-      GenericActivate
-    </Activate>
-    <Activate effect="Damaging" duration="3" range="4.5" color="0xff0080" target="player" center="player"
-              visualEffect="0" useWisMod="true">
-      GenericActivate
-    </Activate>
+    <Activate effect="Healing" duration="3" range="4.5" color="0xff0080" target="player" center="player" visualEffect="5" useWisMod="true">GenericActivate</Activate>
+    <Activate effect="Damaging" duration="3" range="4.5" color="0xff0080" target="player" center="player" visualEffect="0" useWisMod="true">GenericActivate</Activate>
     <feedPower>20</feedPower>
     <DisplayId>{equip.Seal_of_the_Seeker}</DisplayId>
   </Object>
@@ -5994,17 +5974,9 @@
     <BagType>2</BagType>
     <FameBonus>1</FameBonus>
     <MpCost>75</MpCost>
-    <Activate stat="0" amount="25" duration="3.5" range="4.5" noStack="true" useWisMod="true">
-      StatBoostAura
-    </Activate>
-    <Activate effect="Healing" duration="3.5" range="4.5" color="0xff0080" target="player" center="player"
-              visualEffect="5" useWisMod="true">
-      GenericActivate
-    </Activate>
-    <Activate effect="Damaging" duration="3.5" range="4.5" color="0xff0080" target="player" center="player"
-              visualEffect="0" useWisMod="true">
-      GenericActivate
-    </Activate>
+    <Activate stat="0" amount="25" duration="3.5" range="4.5" noStack="true" useWisMod="true">StatBoostAura</Activate>
+    <Activate effect="Healing" duration="3.5" range="4.5" color="0xff0080" target="player" center="player" visualEffect="5" useWisMod="true">GenericActivate</Activate>
+    <Activate effect="Damaging" duration="3.5" range="4.5" color="0xff0080" target="player" center="player" visualEffect="0" useWisMod="true">GenericActivate</Activate>
     <feedPower>45</feedPower>
     <DisplayId>{equip.Seal_of_the_Aspirant}</DisplayId>
   </Object>
@@ -6023,17 +5995,9 @@
     <BagType>2</BagType>
     <FameBonus>2</FameBonus>
     <MpCost>80</MpCost>
-    <Activate stat="0" amount="45" duration="3.5" range="4.5" noStack="true" useWisMod="true">
-      StatBoostAura
-    </Activate>
-    <Activate effect="Healing" duration="3.5" range="4.5" color="0xff0080" target="player" center="player"
-              visualEffect="5" useWisMod="true">
-      GenericActivate
-    </Activate>
-    <Activate effect="Damaging" duration="3.5" range="4.5" color="0xff0080" target="player" center="player"
-              visualEffect="0" useWisMod="true">
-      GenericActivate
-    </Activate>
+    <Activate stat="0" amount="45" duration="3.5" range="4.5" noStack="true" useWisMod="true">StatBoostAura</Activate>
+    <Activate effect="Healing" duration="3.5" range="4.5" color="0xff0080" target="player" center="player" visualEffect="5" useWisMod="true">GenericActivate</Activate>
+    <Activate effect="Damaging" duration="3.5" range="4.5" color="0xff0080" target="player" center="player" visualEffect="0" useWisMod="true">GenericActivate</Activate>
     <feedPower>90</feedPower>
     <DisplayId>{equip.Seal_of_the_Divine}</DisplayId>
   </Object>
@@ -6053,14 +6017,8 @@
     <FameBonus>3</FameBonus>
     <MpCost>85</MpCost>
     <Activate stat="0" amount="55" duration="4" range="4.5" noStack="true" useWisMod="true">StatBoostAura</Activate>
-    <Activate effect="Healing" duration="4" range="4.5" color="0xff0080" target="player" center="player"
-              visualEffect="5" useWisMod="true">
-      GenericActivate
-    </Activate>
-    <Activate effect="Damaging" duration="4" range="4.5" color="0xff0080" target="player" center="player"
-              visualEffect="0" useWisMod="true">
-      GenericActivate
-    </Activate>
+    <Activate effect="Healing" duration="4" range="4.5" color="0xff0080" target="player" center="player" visualEffect="5" useWisMod="true">GenericActivate</Activate>
+    <Activate effect="Damaging" duration="4" range="4.5" color="0xff0080" target="player" center="player" visualEffect="0" useWisMod="true">GenericActivate</Activate>
     <feedPower>185</feedPower>
     <DisplayId>{equip.Seal_of_the_Holy_Warrior}</DisplayId>
   </Object>
@@ -6080,14 +6038,8 @@
     <FameBonus>4</FameBonus>
     <MpCost>90</MpCost>
     <Activate stat="0" amount="75" duration="4" range="4.5" noStack="true" useWisMod="true">StatBoostAura</Activate>
-    <Activate effect="Healing" duration="4" range="4.5" color="0xff0080" target="player" center="player"
-              visualEffect="5" useWisMod="true">
-      GenericActivate
-    </Activate>
-    <Activate effect="Damaging" duration="4" range="4.5" color="0xff0080" target="player" center="player"
-              visualEffect="0" useWisMod="true">
-      GenericActivate
-    </Activate>
+    <Activate effect="Healing" duration="4" range="4.5" color="0xff0080" target="player" center="player" visualEffect="5" useWisMod="true">GenericActivate</Activate>
+    <Activate effect="Damaging" duration="4" range="4.5" color="0xff0080" target="player" center="player" visualEffect="0" useWisMod="true">GenericActivate</Activate>
     <feedPower>380</feedPower>
     <DisplayId>{equip.Seal_of_the_Blessed_Champion}</DisplayId>
   </Object>
@@ -6979,7 +6931,7 @@
     <Activate effect="Armored" duration="4.5">ConditionEffectSelf</Activate>
     <Cooldown>6</Cooldown>
     <feedPower>1250</feedPower>
-    <SellPrice fame="1500" gold="500" />
+    <Soulbound />
     <DisplayId>{equip.Helm_of_the_Juggernaut}</DisplayId>
   </Object>
   <Object type="0xa97" id="Energy Staff">
@@ -7291,7 +7243,6 @@
     <ArcGap>0</ArcGap>
     <OldSound>magicShoot</OldSound>
     <feedPower>212</feedPower>
-    <SellPrice fame="100" gold="20" />
     <DisplayId>{equip.Staff_of_Diabolic_Secrets}</DisplayId>
   </Object>
   <Object type="0xaa2" id="Staff of Astral Knowledge">
@@ -7321,7 +7272,6 @@
     <ArcGap>0</ArcGap>
     <OldSound>magicShoot</OldSound>
     <feedPower>310</feedPower>
-    <SellPrice fame="300" gold="50" />
     <DisplayId>{equip.Staff_of_Astral_Knowledge}</DisplayId>
   </Object>
   <Object type="0xb08" id="Staff of the Cosmic Whole">
@@ -7351,7 +7301,6 @@
     <ArcGap>0</ArcGap>
     <OldSound>magicShoot</OldSound>
     <feedPower>450</feedPower>
-    <SellPrice fame="500" gold="200" />
     <DisplayId>{equip.Staff_of_the_Cosmic_Whole}</DisplayId>
   </Object>
   <Object type="0x9d1" id="Staff of the Vital Unity">
@@ -7438,7 +7387,7 @@
     <ArcGap>36</ArcGap>
     <OldSound>magicShoot</OldSound>
     <feedPower>600</feedPower>
-    <SellPrice fame="350" gold="180" />
+    <Soulbound />
     <DisplayId>{equip.Staff_of_Extreme_Prejudice}</DisplayId>
   </Object>
   <Object type="0xaa3" id="Centipede Poison">
@@ -7544,7 +7493,6 @@
     <MpCost>110</MpCost>
     <Activate radius="5" totalDamage="900" duration="7.5">PoisonGrenade</Activate>
     <feedPower>185</feedPower>
-    <SellPrice fame="100" gold="30" />
     <DisplayId>{equip.Nightwing_Venom}</DisplayId>
   </Object>
   <Object type="0xb2a" id="Baneserpent Poison">
@@ -7565,7 +7513,6 @@
     <MpCost>110</MpCost>
     <Activate radius="5" totalDamage="900" duration="7.5">PoisonGrenade</Activate>
     <feedPower>380</feedPower>
-    <SellPrice fame="300" gold="100" />
     <DisplayId>{equip.Baneserpent_Poison}</DisplayId>
   </Object>
   <Object type="0xaaa" id="Necrotic Skull">
@@ -7671,7 +7618,6 @@
     <MpCost>140</MpCost>
     <Activate radius="3.75" totalDamage="150">VampireBlast</Activate>
     <feedPower>185</feedPower>
-    <SellPrice fame="100" gold="30" />
     <DisplayId>{equip.Lifedrinker_Skull}</DisplayId>
   </Object>
   <Object type="0xb2b" id="Bloodsucker Skull">
@@ -7692,7 +7638,6 @@
     <MpCost>140</MpCost>
     <Activate radius="3.75" totalDamage="150">VampireBlast</Activate>
     <feedPower>380</feedPower>
-    <SellPrice fame="300" gold="100" />
     <DisplayId>{equip.Bloodsucker_Skull}</DisplayId>
   </Object>
   <Object type="0x911" id="Skull of Endless Torment">
@@ -7712,7 +7657,7 @@
     <MpCost>135</MpCost>
     <Activate radius="2" totalDamage="200">VampireBlast</Activate>
     <feedPower>250</feedPower>
-    <SellPrice fame="1200" gold="600" />
+    <Soulbound />
     <DisplayId>{equip.Skull_of_Endless_Torment}</DisplayId>
   </Object>
   <Object type="0xab1" id="Hunting Trap">
@@ -7818,7 +7763,6 @@
     <MpCost>140</MpCost>
     <Activate radius="6.5" totalDamage="300" condDuration="5.5">Trap</Activate>
     <feedPower>185</feedPower>
-    <SellPrice fame="100" gold="30" />
     <DisplayId>{equip.Dragonstalker_Trap}</DisplayId>
   </Object>
   <Object type="0xb2c" id="Giantcatcher Trap">
@@ -7839,7 +7783,6 @@
     <MpCost>140</MpCost>
     <Activate radius="6.5" totalDamage="300" condDuration="6">Trap</Activate>
     <feedPower>380</feedPower>
-    <SellPrice fame="300" gold="100" />
     <DisplayId>{equip.Giantcatcher_Trap}</DisplayId>
   </Object>
   <Object type="0xae4" id="Stasis Orb">
@@ -7873,10 +7816,7 @@
     <BagType>1</BagType>
     <Usable />
     <MpCost>65</MpCost>
-    <Activate effect="Curse" duration="4.5" range="5" color="0x808080" target="enemy" center="mouse"
-              visualEffect="8" useWisMod="true">
-      GenericActivate
-    </Activate>
+    <Activate effect="Curse" duration="4.5" range="5" color="0x808080" target="enemy" center="mouse" visualEffect="8" useWisMod="true">GenericActivate</Activate>
     <Activate duration="3.5">StasisBlast</Activate>
     <feedPower>10</feedPower>
     <DisplayId>{equip.Suspension_Orb}</DisplayId>
@@ -7894,10 +7834,7 @@
     <Usable />
     <BagType>1</BagType>
     <MpCost>70</MpCost>
-    <Activate effect="Curse" duration="5" range="5" color="0x808080" target="enemy" center="mouse" visualEffect="8"
-              useWisMod="true">
-      GenericActivate
-    </Activate>
+    <Activate effect="Curse" duration="5" range="5" color="0x808080" target="enemy" center="mouse" visualEffect="8" useWisMod="true">GenericActivate</Activate>
     <Activate duration="4">StasisBlast</Activate>
     <feedPower>20</feedPower>
     <DisplayId>{equip.Imprisonment_Orb}</DisplayId>
@@ -7916,10 +7853,7 @@
     <BagType>2</BagType>
     <FameBonus>1</FameBonus>
     <MpCost>75</MpCost>
-    <Activate effect="Curse" duration="5.5" range="5" color="0x808080" target="enemy" center="mouse"
-              visualEffect="8" useWisMod="true">
-      GenericActivate
-    </Activate>
+    <Activate effect="Curse" duration="5.5" range="5" color="0x808080" target="enemy" center="mouse" visualEffect="8" useWisMod="true">GenericActivate</Activate>
     <Activate duration="4.5">StasisBlast</Activate>
     <feedPower>45</feedPower>
     <DisplayId>{equip.Neutralization_Orb}</DisplayId>
@@ -7938,10 +7872,7 @@
     <BagType>2</BagType>
     <FameBonus>2</FameBonus>
     <MpCost>80</MpCost>
-    <Activate effect="Curse" duration="6" range="5" color="0x808080" target="enemy" center="mouse" visualEffect="8"
-              useWisMod="true">
-      GenericActivate
-    </Activate>
+    <Activate effect="Curse" duration="6" range="5" color="0x808080" target="enemy" center="mouse" visualEffect="8" useWisMod="true">GenericActivate</Activate>
     <Activate duration="5">StasisBlast</Activate>
     <feedPower>90</feedPower>
     <DisplayId>{equip.Timelock_Orb}</DisplayId>
@@ -7961,13 +7892,9 @@
     <FameBonus>3</FameBonus>
     <MpCost>80</MpCost>
     <Activate effect="Berserk" duration="1.5" useWisMod="true">ConditionEffectSelf</Activate>
-    <Activate effect="Curse" duration="6.5" range="5" color="0x808080" target="enemy" center="mouse"
-              visualEffect="8" useWisMod="true">
-      GenericActivate
-    </Activate>
+    <Activate effect="Curse" duration="6.5" range="5" color="0x808080" target="enemy" center="mouse" visualEffect="8" useWisMod="true">GenericActivate</Activate>
     <Activate duration="5.5">StasisBlast</Activate>
     <feedPower>185</feedPower>
-    <SellPrice fame="80" gold="20" />
     <DisplayId>{equip.Banishment_Orb}</DisplayId>
   </Object>
   <Object type="0xb2d" id="Planefetter Orb">
@@ -7985,13 +7912,9 @@
     <FameBonus>4</FameBonus>
     <MpCost>90</MpCost>
     <Activate effect="Berserk" duration="2" useWisMod="true">ConditionEffectSelf</Activate>
-    <Activate effect="Curse" duration="7" range="5" color="0x808080" target="enemy" center="mouse" visualEffect="8"
-              useWisMod="true">
-      GenericActivate
-    </Activate>
+    <Activate effect="Curse" duration="7" range="5" color="0x808080" target="enemy" center="mouse" visualEffect="8" useWisMod="true">GenericActivate</Activate>
     <Activate duration="6">StasisBlast</Activate>
     <feedPower>380</feedPower>
-    <SellPrice fame="250" gold="75" />
     <DisplayId>{equip.Planefetter_Orb}</DisplayId>
   </Object>
   <Object type="0xc0b" id="Orb of Conflict">
@@ -8014,7 +7937,7 @@
     <Activate effect="Damaging" duration="2" useWisMod="true">ConditionEffectSelf</Activate>
     <Cooldown>5</Cooldown>
     <feedPower>750</feedPower>
-    <SellPrice fame="1300" gold="500" />
+    <Soulbound />
     <DisplayId>{equip.Orb_of_Conflict}</DisplayId>
   </Object>
   <Object type="0xaa9" id="Purple Drake Egg">
@@ -8229,7 +8152,6 @@
     <Activate duration="5.5">Decoy</Activate>
     <Activate maxDistance="20">Teleport</Activate>
     <feedPower>185</feedPower>
-    <SellPrice fame="100" gold="30" />
     <DisplayId>{equip.Prism_of_Phantoms}</DisplayId>
   </Object>
   <Object type="0xb23" id="Prism of Apparitions">
@@ -8251,7 +8173,6 @@
     <Activate duration="5.5">Decoy</Activate>
     <Activate maxDistance="20">Teleport</Activate>
     <feedPower>380</feedPower>
-    <SellPrice fame="300" gold="100" />
     <DisplayId>{equip.Prism_of_Apparitions}</DisplayId>
   </Object>
   <Object type="0x912" id="Prism of Dancing Swords">
@@ -8273,7 +8194,7 @@
     <Activate duration="5">Decoy</Activate>
     <Activate duration="5" angleOffset="180">Decoy</Activate>
     <feedPower>400</feedPower>
-    <SellPrice fame="1000" gold="400" />
+    <Soulbound />
     <DisplayId>{equip.Prism_of_Dancing_Swords}</DisplayId>
   </Object>
   <Object type="0xb21" id="Chicken Leg of Doom">
@@ -8299,7 +8220,7 @@
     <OldSound>daggerSwing</OldSound>
     <FameBonus>4</FameBonus>
     <feedPower>650</feedPower>
-    <SellPrice fame="750" gold="250" />
+    <Soulbound />
     <DisplayId>{equip.Chicken_Leg_of_Doom}</DisplayId>
   </Object>
   <Object type="0xae5" id="Lightning Scepter">
@@ -8411,7 +8332,6 @@
     <MpCost>85</MpCost>
     <Activate totalDamage="200" maxTargets="8">Lightning</Activate>
     <feedPower>185</feedPower>
-    <SellPrice fame="100" gold="30" />
     <DisplayId>{equip.Scepter_of_Skybolts}</DisplayId>
   </Object>
   <Object type="0xb33" id="Scepter of Storms">
@@ -8433,32 +8353,30 @@
     <MpCost>85</MpCost>
     <Activate totalDamage="200" maxTargets="8">Lightning</Activate>
     <feedPower>380</feedPower>
-    <SellPrice fame="300" gold="100" />
     <DisplayId>{equip.Scepter_of_Storms}</DisplayId>
   </Object>
   <Object type="0xb3e" id="Amulet of Resurrection">
-    <DisplayId>Amulet of Resurrection</DisplayId>
+    <DisplayId>{equip.Amulet_of_Resurrection}</DisplayId>
     <Class>Equipment</Class>
     <Item />
     <Texture>
       <File>lofiObj2</File>
-      <Index>0x50</Index>
-      <!--0xf8 = cursed-->
+      <Index>0xf8</Index>
     </Texture>
     <SlotType>9</SlotType>
-    <Description>An amulet that protects the wearer from even death itself.</Description>
+    <Soulbound />
+    <Description>{equip.An_amulet_that_provides_helpful_benefits_at_the_cost_of_rai}</Description>
     <Resurrects />
-    <ActivateOnEquip stat="20" amount="2">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip stat="21" amount="2">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip stat="22" amount="2">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip stat="26" amount="2">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip stat="27" amount="2">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip stat="28" amount="2">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="20" amount="1">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="21" amount="1">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="22" amount="1">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="26" amount="1">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="27" amount="1">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="28" amount="1">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip stat="0" amount="20">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip stat="3" amount="20">IncrementStat</ActivateOnEquip>
     <BagType>4</BagType>
-    <feedPower>2000</feedPower>
-    <SellPrice fame="5000" gold="2500" />
+    <feedPower>500</feedPower>
   </Object>
   <Object type="0x9d4" id="Admin Sword">
     <Class>Equipment</Class>
@@ -8498,7 +8416,6 @@
     <Soulbound />
     <Activate id="Undead Lair Portal">Create</Activate>
     <feedPower>200</feedPower>
-    <SellPrice fame="100" gold="70" />
     <DisplayId>{equip.Undead_Lair_Key}</DisplayId>
   </Object>
   <Object type="0x705" id="Pirate Cave Key">
@@ -8515,7 +8432,6 @@
     <Soulbound />
     <Activate id="Pirate Cave Portal">Create</Activate>
     <feedPower>40</feedPower>
-    <SellPrice fame="20" gold="10" />
     <DisplayId>{equip.Pirate_Cave_Key}</DisplayId>
   </Object>
   <Object type="0x706" id="Spider Den Key">
@@ -8532,7 +8448,6 @@
     <Soulbound />
     <Activate id="Spider Den Portal">Create</Activate>
     <feedPower>130</feedPower>
-    <SellPrice fame="40" gold="30" />
     <DisplayId>{equip.Spider_Den_Key}</DisplayId>
   </Object>
   <Object type="0x70a" id="Abyss of Demons Key">
@@ -8549,7 +8464,7 @@
     <Soulbound />
     <Activate id="Abyss of Demons Portal">Create</Activate>
     <feedPower>260</feedPower>
-    <SellPrice fame="150" gold="100" />
+    <Track />
     <DisplayId>{equip.Abyss_of_Demons_Key}</DisplayId>
   </Object>
   <Object type="0x70b" id="Snake Pit Key">
@@ -8566,7 +8481,6 @@
     <Soulbound />
     <Activate id="Snake Pit Portal">Create</Activate>
     <feedPower>165</feedPower>
-    <SellPrice fame="100" gold="70" />
     <DisplayId>{equip.Snake_Pit_Key}</DisplayId>
   </Object>
   <Object type="0x710" id="Tomb of the Ancients Key">
@@ -8583,7 +8497,6 @@
     <Soulbound />
     <Activate id="Tomb of the Ancients Portal">Create</Activate>
     <feedPower>350</feedPower>
-    <SellPrice fame="300" gold="150" />
     <DisplayId>{equip.Tomb_of_the_Ancients_Key}</DisplayId>
   </Object>
   <Object type="0x71f" id="Sprite World Key">
@@ -8600,7 +8513,6 @@
     <Soulbound />
     <Activate id="Glowing Portal">Create</Activate>
     <feedPower>135</feedPower>
-    <SellPrice fame="50" gold="30" />
     <DisplayId>{equip.Sprite_World_Key}</DisplayId>
   </Object>
   <Object type="0x722" id="Wine Cellar Incantation">
@@ -8617,7 +8529,6 @@
     <BagType>4</BagType>
     <Activate dungeonName="Wine Cellar" lockedName="Locked Wine Cellar Portal">UnlockPortal</Activate>
     <feedPower>500</feedPower>
-    <SellPrice fame="200" gold="90" />
     <DisplayId>{equip.Wine_Cellar_Incantation}</DisplayId>
   </Object>
   <Object type="0xc11" id="Ocean Trench Key">
@@ -8634,7 +8545,7 @@
     <Soulbound />
     <Activate id="Ocean Trench Portal">Create</Activate>
     <feedPower>225</feedPower>
-    <SellPrice fame="300" gold="150" />
+    <Track />
     <DisplayId>{equip.Ocean_Trench_Key}</DisplayId>
   </Object>
   <Object type="0xcef" id="Battle Nexus Key">
@@ -8650,7 +8561,6 @@
     <Consumable />
     <Soulbound />
     <Activate id="Battle Nexus Portal">Create</Activate>
-    <SellPrice fame="100" gold="50" />
     <DisplayId>{equip.Battle_Nexus_Key}</DisplayId>
   </Object>
   <Object type="0xc12" id="Coral Juice">
@@ -8686,7 +8596,7 @@
     <BagType>4</BagType>
     <FameBonus>4</FameBonus>
     <feedPower>650</feedPower>
-    <SellPrice fame="200" gold="200" />
+    <Soulbound />
     <DisplayId>{equip.Coral_Ring}</DisplayId>
   </Object>
   <Object type="0xc14" id="Robe of the Tlatoani">
@@ -8703,7 +8613,7 @@
     <BagType>4</BagType>
     <FameBonus>2</FameBonus>
     <feedPower>250</feedPower>
-    <SellPrice fame="70" gold="30" />
+    <Soulbound />
     <DisplayId>{equip.Robe_of_the_Tlatoani}</DisplayId>
   </Object>
   <Object type="0xc15" id="Staff of the Crystal Serpent">
@@ -8732,7 +8642,7 @@
     <ArcGap>0</ArcGap>
     <OldSound>magicShoot</OldSound>
     <feedPower>320</feedPower>
-    <SellPrice fame="80" gold="35" />
+    <Soulbound />
     <DisplayId>{equip.Staff_of_the_Crystal_Serpent}</DisplayId>
   </Object>
   <Object type="0xc16" id="Cracked Crystal Skull">
@@ -8766,7 +8676,7 @@
     <ActivateOnEquip stat="27" amount="3">IncrementStat</ActivateOnEquip>
     <BagType>4</BagType>
     <feedPower>220</feedPower>
-    <SellPrice fame="80" gold="30" />
+    <Soulbound />
     <DisplayId>{equip.Crystal_Bone_Ring}</DisplayId>
   </Object>
   <Object type="0xc18" id="Coral Silk Armor">
@@ -8784,7 +8694,7 @@
     <BagType>4</BagType>
     <FameBonus>5</FameBonus>
     <feedPower>800</feedPower>
-    <SellPrice fame="350" gold="200" />
+    <Soulbound />
     <DisplayId>{equip.Coral_Silk_Armor}</DisplayId>
   </Object>
   <Object type="0xc19" id="Totem Key">
@@ -8801,7 +8711,6 @@
     <Soulbound />
     <Activate id="Forbidden Jungle Portal">Create</Activate>
     <feedPower>145</feedPower>
-    <SellPrice fame="60" gold="40" />
     <DisplayId>{equip.Totem_Key}</DisplayId>
   </Object>
   <Object type="0x748C" id="Ice Cave Key">
@@ -8818,7 +8727,6 @@
     <Soulbound />
     <Activate id="Ice Cave Portal">Create</Activate>
     <feedPower>145</feedPower>
-    <SellPrice fame="200" gold="100" />
     <DisplayId>{equip.Ice_Cave_Key}</DisplayId>
   </Object>
   <Object type="0xc1a" id="Pollen Powder">
@@ -8883,7 +8791,7 @@
     <MpCost>130</MpCost>
     <Activate radius="4" totalDamage="350" condEffect="Paralyzed" condDuration="3.5">Trap</Activate>
     <feedPower>500</feedPower>
-    <SellPrice fame="100" gold="40" />
+    <Soulbound />
     <DisplayId>{equip.Coral_Venom_Trap}</DisplayId>
   </Object>
   <Object type="0xc1d" id="St. Abraham's Wand">
@@ -8910,7 +8818,7 @@
     <FameBonus>3</FameBonus>
     <OldSound>magicShoot</OldSound>
     <feedPower>700</feedPower>
-    <SellPrice fame="150" gold="60" />
+    <Soulbound />
     <DisplayId>{equip.St._AbrahamAPOSs_Wand}</DisplayId>
   </Object>
   <Object type="0xc1e" id="Tome of Holy Protection">
@@ -8932,7 +8840,7 @@
     <Activate amount="200" range="6" useWisMod="true">HealNova</Activate>
     <Activate effect="Armored" duration="4" useWisMod="true">ConditionEffectSelf</Activate>
     <feedPower>1300</feedPower>
-    <SellPrice fame="1300" gold="400" />
+    <Soulbound />
     <DisplayId>{equip.Tome_of_Holy_Protection}</DisplayId>
   </Object>
   <Object type="0xc09" id="Tome of Purification">
@@ -8955,7 +8863,7 @@
     <Activate range="6" effect="Speedy" checkExistingEffect="Hexed">ClearConditionEffectAura</Activate>
     <Activate range="6">RemoveNegativeConditions</Activate>
     <feedPower>900</feedPower>
-    <SellPrice fame="1200" gold="350" />
+    <Soulbound />
     <DisplayId>{equip.Tome_of_Purification}</DisplayId>
   </Object>
   <Object type="0xc1f" id="Chasuble of Holy Light">
@@ -8974,7 +8882,7 @@
     <BagType>4</BagType>
     <FameBonus>3</FameBonus>
     <feedPower>650</feedPower>
-    <SellPrice fame="500" gold="100" />
+    <Soulbound />
     <DisplayId>{equip.Chasuble_of_Holy_Light}</DisplayId>
   </Object>
   <Object type="0xc20" id="Ring of Divine Faith">
@@ -8991,7 +8899,7 @@
     <FameBonus>2</FameBonus>
     <BagType>4</BagType>
     <feedPower>500</feedPower>
-    <SellPrice fame="100" gold="50" />
+    <Soulbound />
     <DisplayId>{equip.Ring_of_Divine_Faith}</DisplayId>
   </Object>
   <Object type="0xc21" id="Holy Water">
@@ -9036,7 +8944,7 @@
     <OldSound>daggerSwing</OldSound>
     <FameBonus>2</FameBonus>
     <feedPower>300</feedPower>
-    <SellPrice fame="80" gold="40" />
+    <Soulbound />
     <DisplayId>{equip.Bone_Dagger}</DisplayId>
   </Object>
   <Object type="0xc23" id="Manor Key">
@@ -9053,7 +8961,7 @@
     <Soulbound />
     <Activate id="Manor of the Immortals Portal">Create</Activate>
     <feedPower>240</feedPower>
-    <SellPrice fame="200" gold="120" />
+    <Track />
     <DisplayId>{equip.Manor_Key}</DisplayId>
   </Object>
   <Object type="0xc24" id="Anatis Staff">
@@ -9083,7 +8991,7 @@
     <OldSound>magicShoot</OldSound>
     <FameBonus>2</FameBonus>
     <feedPower>550</feedPower>
-    <SellPrice fame="750" gold="250" />
+    <Soulbound />
     <DisplayId>{equip.Anatis_Staff}</DisplayId>
   </Object>
   <Object type="0xc25" id="Ghost Pirate Rum">
@@ -9136,7 +9044,7 @@
     <BagType>4</BagType>
     <FameBonus>2</FameBonus>
     <feedPower>400</feedPower>
-    <SellPrice fame="150" gold="40" />
+    <Soulbound />
     <DisplayId>{equip.CaptainAPOSs_Ring}</DisplayId>
   </Object>
   <Object type="0xc28" id="Spectral Cloth Armor">
@@ -9155,7 +9063,7 @@
     <BagType>4</BagType>
     <FameBonus>2</FameBonus>
     <feedPower>650</feedPower>
-    <SellPrice fame="700" gold="150" />
+    <Soulbound />
     <DisplayId>{equip.Spectral_Cloth_Armor}</DisplayId>
   </Object>
   <Object type="0xc29" id="Spirit Dagger">
@@ -9182,7 +9090,7 @@
     <OldSound>daggerSwing</OldSound>
     <FameBonus>4</FameBonus>
     <feedPower>900</feedPower>
-    <SellPrice fame="1000" gold="250" />
+    <Soulbound />
     <DisplayId>{equip.Spirit_Dagger}</DisplayId>
   </Object>
   <Object type="0xc2a" id="Ghostly Prism">
@@ -9201,7 +9109,7 @@
     <Activate maxDistance="20">Teleport</Activate>
     <FameBonus>6</FameBonus>
     <feedPower>1200</feedPower>
-    <SellPrice fame="600" gold="150" />
+    <Soulbound />
     <DisplayId>{equip.Ghostly_Prism}</DisplayId>
   </Object>
   <Object type="0xc2b" id="Small Firecracker">
@@ -9260,7 +9168,7 @@
     <BagType>6</BagType>
     <FameBonus>3</FameBonus>
     <feedPower>700</feedPower>
-    <SellPrice fame="10000" gold="5000" />
+    <Soulbound />
     <DisplayId>{equip.America_Ring}</DisplayId>
   </Object>
   <Object type="0xc2e" id="Davy's Key">
@@ -9277,7 +9185,6 @@
     <Soulbound />
     <Activate id="Davy Jones' Locker Portal">Create</Activate>
     <feedPower>230</feedPower>
-    <SellPrice fame="150" gold="80" />
     <DisplayId>{equip.DavyAPOSs_Key}</DisplayId>
   </Object>
   <Object type="0xc30" id="Scepter of Fulmination">
@@ -9296,11 +9203,9 @@
     <BagType>6</BagType>
     <FameBonus>4</FameBonus>
     <MpCost>65</MpCost>
-    <Activate totalDamage="180" maxTargets="7" condEffect="Slowed" condDuration="3" color="0xff9933">
-      Lightning
-    </Activate>
+    <Activate totalDamage="180" maxTargets="7" condEffect="Slowed" condDuration="3" color="0xff9933">Lightning</Activate>
     <feedPower>1100</feedPower>
-    <SellPrice fame="800" gold="350" />
+    <Soulbound />
     <DisplayId>{equip.Scepter_of_Fulmination}</DisplayId>
   </Object>
   <Object type="0xc31" id="Experimental Ring">
@@ -9319,7 +9224,7 @@
     <BagType>4</BagType>
     <FameBonus>4</FameBonus>
     <feedPower>500</feedPower>
-    <SellPrice fame="500" gold="180" />
+    <Soulbound />
     <DisplayId>{equip.Experimental_Ring}</DisplayId>
   </Object>
   <Object type="0xc32" id="Robe of the Mad Scientist">
@@ -9339,7 +9244,7 @@
     <BagType>6</BagType>
     <FameBonus>5</FameBonus>
     <feedPower>800</feedPower>
-    <SellPrice fame="700" gold="250" />
+    <Soulbound />
     <DisplayId>{equip.Robe_of_the_Mad_Scientist}</DisplayId>
   </Object>
   <Object type="0xc33" id="Conducting Wand">
@@ -9367,7 +9272,7 @@
     <FameBonus>4</FameBonus>
     <OldSound>magicShoot</OldSound>
     <feedPower>900</feedPower>
-    <SellPrice fame="700" gold="250" />
+    <Soulbound />
     <DisplayId>{equip.Conducting_Wand}</DisplayId>
   </Object>
   <Object type="0xc34" id="Sand Pail 5">
@@ -9562,7 +9467,6 @@
     <Soulbound />
     <Activate id="Beachzone Portal">Create</Activate>
     <feedPower>300</feedPower>
-    <SellPrice fame="500" gold="200" />
     <DisplayId>{equip.Beachzone_Key}</DisplayId>
   </Object>
   <Object type="0xc3e" id="Gold Medal">
@@ -9580,7 +9484,7 @@
     <FameBonus>3</FameBonus>
     <BagType>6</BagType>
     <feedPower>500</feedPower>
-    <SellPrice fame="8000" gold="4000" />
+    <Soulbound />
     <DisplayId>{equip.Gold_Medal}</DisplayId>
   </Object>
   <Object type="0xc3f" id="Silver Medal">
@@ -9598,7 +9502,7 @@
     <FameBonus>2</FameBonus>
     <BagType>6</BagType>
     <feedPower>350</feedPower>
-    <SellPrice fame="5000" gold="2500" />
+    <Soulbound />
     <DisplayId>{equip.Silver_Medal}</DisplayId>
   </Object>
   <Object type="0xc40" id="Bronze Medal">
@@ -9616,7 +9520,7 @@
     <FameBonus>1</FameBonus>
     <BagType>6</BagType>
     <feedPower>200</feedPower>
-    <SellPrice fame="3000" gold="1500" />
+    <Soulbound />
     <DisplayId>{equip.Bronze_Medal}</DisplayId>
   </Object>
   <Object type="0xc2f" id="Lab Key">
@@ -9633,7 +9537,7 @@
     <Soulbound />
     <Activate id="Mad Lab Portal">Create</Activate>
     <feedPower>300</feedPower>
-    <SellPrice fame="300" gold="150" />
+    <Track />
     <DisplayId>{equip.Lab_Key}</DisplayId>
   </Object>
   <Object type="0xc41" id="Transformation Potion">
@@ -9966,7 +9870,6 @@
     <FameBonus>2</FameBonus>
     <OldSound>bladeSwing</OldSound>
     <feedPower>212</feedPower>
-    <SellPrice fame="100" gold="20" />
     <DisplayId>{equip.Ichimonji}</DisplayId>
   </Object>
   <Object type="0xc4f" id="Muramasa">
@@ -9993,7 +9896,6 @@
     <FameBonus>3</FameBonus>
     <OldSound>bladeSwing</OldSound>
     <feedPower>310</feedPower>
-    <SellPrice fame="300" gold="50" />
     <DisplayId>{equip.Muramasa}</DisplayId>
   </Object>
   <Object type="0xc50" id="Masamune">
@@ -10020,7 +9922,6 @@
     <FameBonus>4</FameBonus>
     <OldSound>bladeSwing</OldSound>
     <feedPower>450</feedPower>
-    <SellPrice fame="500" gold="200" />
     <DisplayId>{equip.Masamune}</DisplayId>
   </Object>
   <Object type="0x914" id="Useless Katana">
@@ -10070,7 +9971,7 @@
     <FameBonus>3</FameBonus>
     <OldSound>bladeSwing</OldSound>
     <feedPower>500</feedPower>
-    <SellPrice fame="1000" gold="400" />
+    <Soulbound />
     <DisplayId>{equip.Ray_Katana}</DisplayId>
   </Object>
   <Object type="0xc53" id="Basic Star">
@@ -10284,7 +10185,6 @@
     <MultiPhase />
     <Activate>ShurikenAbility</Activate>
     <feedPower>185</feedPower>
-    <SellPrice fame="100" gold="30" />
     <DisplayId>{equip.Ice_Star}</DisplayId>
   </Object>
   <Object type="0xc59" id="Doom Circle">
@@ -10321,7 +10221,6 @@
     <MultiPhase />
     <Activate>ShurikenAbility</Activate>
     <feedPower>380</feedPower>
-    <SellPrice fame="300" gold="100" />
     <DisplayId>{equip.Doom_Circle}</DisplayId>
   </Object>
   <Object type="0x916" id="Midnight Star">
@@ -10359,7 +10258,7 @@
     <MultiPhase />
     <Activate>ShurikenAbility</Activate>
     <feedPower>850</feedPower>
-    <SellPrice fame="800" gold="300" />
+    <Soulbound />
     <DisplayId>{equip.Midnight_Star}</DisplayId>
   </Object>
   <Object type="0xc5b" id="Mad God Ale">
@@ -10455,7 +10354,7 @@
     <ActivateOnEquip stat="27" amount="-10">IncrementStat</ActivateOnEquip>
     <BagType>4</BagType>
     <feedPower>400</feedPower>
-    <SellPrice fame="100" gold="30" />
+    <Soulbound />
     <DisplayId>{equip.Candy_Ring}</DisplayId>
   </Object>
   <Object type="0xc60" id="Rock Candy">
@@ -10489,7 +10388,7 @@
     <BagType>6</BagType>
     <FameBonus>4</FameBonus>
     <feedPower>1000</feedPower>
-    <SellPrice fame="800" gold="300" />
+    <Soulbound />
     <DisplayId>{equip.Candy-Coated_Armor}</DisplayId>
   </Object>
   <Object type="0xc62" id="Candy Key">
@@ -10506,7 +10405,7 @@
     <Soulbound />
     <Activate id="Candyland Portal">Create</Activate>
     <feedPower>240</feedPower>
-    <SellPrice fame="200" gold="80" />
+    <Track />
     <DisplayId>{equip.Candy_Key}</DisplayId>
   </Object>
   <Object type="0xc63" id="Red Gumball">
@@ -10747,7 +10646,7 @@
     <MpCost>80</MpCost>
     <Activate radius="9" totalDamage="500" duration="15" color="8fa547">PoisonGrenade</Activate>
     <feedPower>450</feedPower>
-    <SellPrice fame="800" gold="400" />
+    <Soulbound />
     <DisplayId>{equip.Plague_Poison}</DisplayId>
   </Object>
   <Object type="0xc6c" id="Backpack">
@@ -10870,7 +10769,6 @@
     </ExtraTooltipData>
     <Sound>spell/fire_nova</Sound>
     <BagType>4</BagType>
-    <Modifier type="decrease" name="ManaCost" value="0.01" price="20" />
     <Treasure />
     <feedPower>450</feedPower>
     <DisplayId>{equip.Golden_Cockle}</DisplayId>
@@ -10889,7 +10787,6 @@
     </ExtraTooltipData>
     <Sound>spell/fire_nova</Sound>
     <BagType>4</BagType>
-    <Modifier type="decrease" name="ManaCost" value="0.02" price="30" />
     <Treasure />
     <feedPower>550</feedPower>
     <DisplayId>{equip.Golden_Conch}</DisplayId>
@@ -10908,7 +10805,6 @@
     </ExtraTooltipData>
     <Sound>spell/fire_nova</Sound>
     <BagType>4</BagType>
-    <Modifier type="decrease" name="ManaCost" value="0.03" price="40" />
     <Treasure />
     <feedPower>650</feedPower>
     <DisplayId>{equip.Golden_Horn_Conch}</DisplayId>
@@ -11253,6 +11149,7 @@
     <Soulbound />
     <Activate id="Lair of Draconis Portal">Create</Activate>
     <feedPower>100</feedPower>
+    <Track />
     <DisplayId>{equip.Draconis_Key}</DisplayId>
   </Object>
   <Object type="0x7562" id="Leaf Dragon Hide Armor">
@@ -11544,6 +11441,7 @@
     <Soulbound />
     <Activate id="The Shatters">Create</Activate>
     <feedPower>270</feedPower>
+    <Track />
     <DisplayId>{equip.Shatters_Key}</DisplayId>
   </Object>
   <Object type="0xcdb" id="Pirate King's Cutlass">
@@ -12019,6 +11917,7 @@
     <Activate skinType="914">UnlockSkin</Activate>
     <Consumable />
     <BagType>1</BagType>
+    <Track />
     <Soulbound />
     <DisplayId>{equip.Gentleman_Skin}</DisplayId>
   </Object>
@@ -12357,6 +12256,7 @@
     <Consumable />
     <Soulbound />
     <Activate id="Lair of Shaitan Portal">Create</Activate>
+    <Track />
     <DisplayId>{equip.ShaitanAPOSs_Key}</DisplayId>
   </Object>
   <Object type="0x2296" id="Wand of Egg-cellence">
@@ -12425,7 +12325,6 @@
     <ArcGap>0</ArcGap>
     <OldSound>magicShoot</OldSound>
     <feedPower>450</feedPower>
-    <Soulbound />
     <DisplayId>{equip.Staff_of_the_Rising_Sun}</DisplayId>
   </Object>
   <Object type="0x229e" id="Thousand Suns Spell">
@@ -12453,7 +12352,6 @@
     <MpCost>80</MpCost>
     <Activate>BulletNova</Activate>
     <feedPower>380</feedPower>
-    <Soulbound />
     <DisplayId>{equip.Thousand_Suns_Spell}</DisplayId>
   </Object>
   <Object type="0x229f" id="Robe of the Summer Solstice">
@@ -12472,7 +12370,6 @@
     <BagType>4</BagType>
     <FameBonus>4</FameBonus>
     <feedPower>435</feedPower>
-    <Soulbound />
     <DisplayId>{equip.Robe_of_the_Summer_Solstice}</DisplayId>
   </Object>
   <Object type="0x2300" id="Ring of the Burning Sun">
@@ -12488,7 +12385,6 @@
     <BagType>4</BagType>
     <FameBonus>4</FameBonus>
     <feedPower>300</feedPower>
-    <Soulbound />
     <DisplayId>{equip.Ring_of_the_Burning_Sun}</DisplayId>
   </Object>
   <Object type="0x224f" id="Holy Avenger Skin">
@@ -12905,7 +12801,6 @@
     </ExtraTooltipData>
     <Sound>spell/fire_nova</Sound>
     <BagType>4</BagType>
-    <Modifier type="increase" name="DamageMultiplier" value="0.03" price="60" />
     <Treasure />
     <feedPower>250</feedPower>
     <DisplayId>{equip.Death_Tarot_Card}</DisplayId>
@@ -13174,6 +13069,7 @@
     <Soulbound />
     <Activate>MysteryPortal</Activate>
     <feedPower>225</feedPower>
+    <Track />
     <DisplayId>{equip.Diamond_Mystery_Key}</DisplayId>
   </Object>
   <Object type="0x3001" id="Ruby Mystery Key">
@@ -13190,6 +13086,7 @@
     <Soulbound />
     <Activate>MysteryPortal</Activate>
     <feedPower>225</feedPower>
+    <Track />
     <DisplayId>{equip.Ruby_Mystery_Key}</DisplayId>
   </Object>
   <Object type="0x3002" id="Emerald Mystery Key">
@@ -13206,6 +13103,7 @@
     <Soulbound />
     <Activate>MysteryPortal</Activate>
     <feedPower>225</feedPower>
+    <Track />
     <DisplayId>{equip.Emerald_Mystery_Key}</DisplayId>
   </Object>
   <Object type="0x7448" id="Harlequin Armor">
@@ -13950,10 +13848,7 @@
     <FameBonus>4</FameBonus>
     <MpCost>135</MpCost>
     <Activate radius="3" totalDamage="150">VampireBlast</Activate>
-    <Activate effect="Slowed" duration="2.5" range="3" color="0x05c2b5" target="enemy" center="mouse"
-              visualEffect="0" useWisMod="false">
-      GenericActivate
-    </Activate>
+    <Activate effect="Slowed" duration="2.5" range="3" color="0x05c2b5" target="enemy" center="mouse" visualEffect="0" useWisMod="false">GenericActivate</Activate>
     <feedPower>250</feedPower>
     <Soulbound />
     <DisplayId>{equip.Skullish_Remains_of_Esben}</DisplayId>
@@ -14097,10 +13992,7 @@
     <ActivateOnEquip stat="28" amount="1">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip stat="22" amount="1">IncrementStat</ActivateOnEquip>
     <Activate duration="5">StasisBlast</Activate>
-    <Activate effect="Curse" duration="4.5" range="4.5" color="0x808080" target="enemy" center="player"
-              visualEffect="12" useWisMod="true">
-      GenericActivate
-    </Activate>
+    <Activate effect="Curse" duration="4.5" range="4.5" color="0x808080" target="enemy" center="player" visualEffect="12" useWisMod="true">GenericActivate</Activate>
     <Usable />
     <BagType>4</BagType>
     <FameBonus>4</FameBonus>
@@ -14183,10 +14075,7 @@
     <ActivateOnEquip stat="26" amount="5">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip stat="27" amount="5">IncrementStat</ActivateOnEquip>
     <Activate stat="0" amount="60" duration="4" range="4.5" noStack="true" useWisMod="true">StatBoostAura</Activate>
-    <Activate effect="Slowed" duration="2" range="4.5" color="0xff0080" target="enemy" center="player"
-              visualEffect="0" useWisMod="true">
-      GenericActivate
-    </Activate>
+    <Activate effect="Slowed" duration="2" range="4.5" color="0xff0080" target="enemy" center="player" visualEffect="0" useWisMod="true">GenericActivate</Activate>
     <Activate effect="Hallucinating" duration="1" useWisMod="false">ConditionEffectSelf</Activate>
     <Usable />
     <BagType>4</BagType>

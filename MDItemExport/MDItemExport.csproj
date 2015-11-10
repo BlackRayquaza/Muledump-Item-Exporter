@@ -60,26 +60,26 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
-    <None Include="strings.json" />
+    <None Include="files\strings.json" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="constants.js" />
-    <Content Include="data\EmbeddedData_CaveOfAThousandTreasuresCXML.xml">
+    <Content Include="files\constants.js" />
+    <Content Include="data\CaveOfAThousandTreasures.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="data\EmbeddedData_DyesCXML.xml">
+    <Content Include="data\Dyes.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="data\EmbeddedData_EquipCXML.xml">
+    <Content Include="data\Equip.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="data\EmbeddedData_LairOfDraconisCXML.xml">
+    <Content Include="data\LairOfDraconis.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="data\EmbeddedData_PermapetsCXML.xml">
+    <Content Include="data\Permapets.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="data\EmbeddedData_TextilesCXML.xml">
+    <Content Include="data\Textiles.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
